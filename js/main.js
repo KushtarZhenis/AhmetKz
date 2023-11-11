@@ -78,8 +78,10 @@ document.addEventListener("DOMContentLoaded", function () {
       cloned.id = "";
       slidedownDiv.appendChild(cloned);
       slidedownDiv.style.height = "150px";
+      btnBar.className = 'fa-solid fa-xmark pc-hidden btnBar';
     } else {
       slidedownDiv.style.height = "0";
+      btnBar.className = 'fa-solid fa-bars pc-hidden btnBar';
       setTimeout(() => {
         const removeChild = slidedownDiv.querySelector(".removeKey");
         slidedownDiv.removeChild(removeChild);

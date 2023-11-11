@@ -50,7 +50,6 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-grow: 3;
   padding: 0 15px;
   align-items: center;
 }
@@ -60,15 +59,15 @@ header nav > * {
 header .site-logo {
   width: 35px;
 }
-/* ul.site-nav {
+ul.site-nav {
   margin: 0;
   padding: 0;
-} */
+}
 div.site-lang {
   text-align: right;
   height: 100%;
   line-height: 65px;
-  /* float: right; */
+  flex-grow: 3;
 }
 .header nav img {
   width: 32px;
