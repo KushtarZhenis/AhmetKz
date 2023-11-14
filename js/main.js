@@ -101,3 +101,5 @@ document.addEventListener("DOMContentLoaded", function () {
   // loading.style = "display :none";
   getWords();
 });
+
+
